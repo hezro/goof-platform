@@ -1,0 +1,11 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - snyk > proxy-agent > pac-proxy-agent > get-uri > debug:
+        patched: '2021-10-13T22:53:51.972Z'
+  'npm:ms:20170412':
+    - snyk > proxy-agent > pac-proxy-agent > get-uri > debug > ms:
+        patched: '2021-10-13T22:53:51.972Z'
