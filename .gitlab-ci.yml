@@ -14,7 +14,7 @@ dependency_scanning:
     - snyk code test --all-projects
  
   # Save report to artifacts
-  artifacts:
-    when: always
-    paths: 
-      - snyk_results.html
+ # artifacts:
+ #   when: always
+ #   paths: 
+ #     - snyk_results.html
