@@ -1,12 +1,8 @@
-import { createHash } from 'node:crypto'
-
 /**
- * Returns an MD5 hash for the given `content`.
+ * MD5 hash example`.
  *
- * @param {String} content
- *
- * @returns {String}
  */
-function md5(content) {  
-  return createHash('md5').update(content).digest('hex')
-}
+
+var data = "do shash'owania";
+var crypto = require('crypto');
+crypto.createHash('md5').update(data).digest("hex");
